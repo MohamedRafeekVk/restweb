@@ -1,0 +1,151 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #345c46;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+.promo {
+    background: url('pasta.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.promo-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.promo-text p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+main {
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+}
+
+.card h3 {
+    background-color: #fdebd0;
+    padding: 15px;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card p {
+    padding: 15px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.card a {
+    display: block;
+    color: #2c7c72;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.card a:hover {
+    color: #345c46;
+    text-decoration: underline;
+}
+
+.hours p {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    color: #555;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #345c46;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

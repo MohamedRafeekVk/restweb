@@ -29,7 +29,7 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 
-# HTML:
+## HTML:
 
 ```
 restapp.html
@@ -265,7 +265,7 @@ contact.html
 
 
 ```
-# CSS:
+## CSS:
 
 ```
 restapp.css
